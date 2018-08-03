@@ -61,6 +61,7 @@ dependencies {
 
 
     endpointsServer project(path: ':backend', configuration: 'endpoints')
+
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.google.api-client:google-api-client:1.23.0'

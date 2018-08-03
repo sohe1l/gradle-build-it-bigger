@@ -24,7 +24,10 @@ allprojects {
 
 
 task testLocalGCE {
-    dependsOn ":backend:appengineStart", ":app:assembleAndroidTest", ":backend:appengineStop"
+    dependsOn ":backend:appengineStart",
+            ":app:assembleFreeDebugAndroidTest",
+            ":app:assemblePaidDebugAndroidTest",
+            ":backend:appengineStop"
     doLast {
         println "Test Local GCE Done."
     }

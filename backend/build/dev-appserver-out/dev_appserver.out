@@ -1,26 +1,26 @@
-Aug 03, 2018 10:47:27 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Aug 03, 2018 11:49:04 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/soheil/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/soheil/droidproj/Gradle Final Project/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-2018-08-03 10:47:27.608:INFO::main: Logging initialized @2712ms
-Aug 03, 2018 5:47:28 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+2018-08-03 11:49:04.306:INFO::main: Logging initialized @1904ms
+Aug 03, 2018 6:49:04 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (/Users/soheil/droidproj/Gradle Final Project) is not equal to your 
 web application root (/Users/soheil/droidproj/Gradle Final Project/backend/build/exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-2018-08-03 10:47:29.323:INFO:oejs.Server:main: jetty-9.3.18.v20170406
-2018-08-03 10:47:38.406:INFO:oeja.AnnotationConfiguration:main: Scanning elapsed time=8238ms
-2018-08-03 10:47:38.760:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@6fdbe764{/,file:///Users/soheil/droidproj/Gradle%20Final%20Project/backend/build/exploded-backend/,AVAILABLE}{/Users/soheil/droidproj/Gradle Final Project/backend/build/exploded-backend}
-2018-08-03 10:47:38.783:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@229c6181{HTTP/1.1,[http/1.1]}{localhost:8080}
-2018-08-03 10:47:38.815:INFO:oejs.Server:main: Started @13920ms
-Aug 03, 2018 5:47:38 PM com.google.appengine.tools.development.AbstractModule startup
+2018-08-03 11:49:05.204:INFO:oejs.Server:main: jetty-9.3.18.v20170406
+2018-08-03 11:49:15.400:INFO:oeja.AnnotationConfiguration:main: Scanning elapsed time=9441ms
+2018-08-03 11:49:15.789:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@6fdbe764{/,file:///Users/soheil/droidproj/Gradle%20Final%20Project/backend/build/exploded-backend/,AVAILABLE}{/Users/soheil/droidproj/Gradle Final Project/backend/build/exploded-backend}
+2018-08-03 11:49:15.819:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@229c6181{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-08-03 11:49:15.860:INFO:oejs.Server:main: Started @13458ms
+Aug 03, 2018 6:49:15 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Aug 03, 2018 5:47:38 PM com.google.appengine.tools.development.AbstractModule startup
+Aug 03, 2018 6:49:15 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Aug 03, 2018 10:47:38 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+Aug 03, 2018 11:49:15 AM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
-2018-08-03 10:47:39.959:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@229c6181{HTTP/1.1,[http/1.1]}{localhost:8080}
-2018-08-03 10:47:39.973:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@6fdbe764{/,file:///Users/soheil/droidproj/Gradle%20Final%20Project/backend/build/exploded-backend/,UNAVAILABLE}{/Users/soheil/droidproj/Gradle Final Project/backend/build/exploded-backend}
-Aug 03, 2018 10:47:39 AM com.google.appengine.tools.development.AbstractModule shutdown
+2018-08-03 11:49:17.002:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@229c6181{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-08-03 11:49:17.013:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@6fdbe764{/,file:///Users/soheil/droidproj/Gradle%20Final%20Project/backend/build/exploded-backend/,UNAVAILABLE}{/Users/soheil/droidproj/Gradle Final Project/backend/build/exploded-backend}
+Aug 03, 2018 11:49:17 AM com.google.appengine.tools.development.AbstractModule shutdown
 INFO: Shutting down module instance default
 Shutting down.
-Aug 03, 2018 10:47:39 AM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
+Aug 03, 2018 11:49:17 AM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
 INFO: scheduler shutting down.
